@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Photo gallery showcasing the [Your School Name] Science Olympiad team in action - competitions, build sessions, and team events.">
+    <!-- **** CHANGE THIS TITLE **** -->
+    <title>Gallery - [Your School Name] Science Olympiad Team</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Add links to any web fonts here if you use them -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <!-- Optional: Add CSS for a lightbox library if you implement one -->
+    <!-- <link rel="stylesheet" href="path/to/lightbox.css"> -->
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="index.html" class="nav-logo">
+                    <img src="images/logo.png" alt="Team Logo" class="logo-img">
+                    <span class="logo-text">[Your Team Name] SciOly</span>
+                </a>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="events.html" class="nav-link">Events</a></li>
+                    <li class="nav-item"><a href="schedule.html" class="nav-link">Schedule</a></li>
+                    <li class="nav-item"><a href="resources.html" class="nav-link">Resources</a></li>
+                    <!-- **** MAKE THIS LINK ACTIVE **** -->
+                    <li class="nav-item"><a href="gallery.html" class="nav-link active">Gallery</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact/Join</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- ========================== -->
+    <!-- == Gallery Page Content == -->
+    <!-- ========================== -->
+    <main class="container page-content">
+
+        <h1>Team Gallery</h1>
+        <p>Check out photos from our competitions, build sessions, meetings, and team events! See the [Your Team Name] team in action.</p>
+        <hr> <!-- Optional separator -->
+
+        <!-- Option 1: Simple Chronological Grid (or organized manually) -->
+        <!-- Use descriptive headings if you manually group photos -->
+
+        <!-- Example Section: Competitions -->
+        <section class="gallery-section">
+            <h2>Competitions ([Year] or Specific Event Name)</h2>
+            <div class="gallery-grid">
+                <!-- Gallery Item 1 -->
+                <figure class="gallery-item">
+                    <!-- Link wrapper for potential lightbox -->
+                    <a href="images/full-size/competition-photo-1.jpg" data-lightbox="competition" data-title="Team receiving medals at Regionals 2023">
+                        <img src="images/thumbnails/competition-photo-1-thumb.jpg" alt="Team members holding medals on stage" loading="lazy">
+                    </a>
+                    <figcaption class="gallery-caption">Receiving medals at Regionals 2023</figcaption>
+                </figure>
+
+                <!-- Gallery Item 2 -->
+                <figure class="gallery-item">
+                     <a href="images/full-size/competition-photo-2.jpg" data-lightbox="competition" data-title="[Student Name] competing in Chem Lab">
+                        <img src="images/thumbnails/competition-photo-2-thumb.jpg" alt="Student carefully measuring liquid in a beaker during Chem Lab event" loading="lazy">
+                    </a>
+                    <figcaption class="gallery-caption">Chem Lab event in action</figcaption>
+                </figure>
+
+                <!-- Gallery Item 3 (Placeholder) -->
+                <figure class="gallery-item">
+                    <a href="images/gallery-placeholder.jpg" data-lightbox="competition" data-title="Placeholder Image">
+                        <img src="images/gallery-placeholder.jpg" alt="Placeholder for competition photo" loading="lazy">
+                    </a>
+                    <figcaption class="gallery-caption">More competition moments</figcaption>
+                </figure>
+
+                <!-- **** ADD MORE GALLERY ITEMS FOR COMPETITIONS **** -->
+
+            </div> <!-- End .gallery-grid -->
+        </section>
+
+        <!-- Optional: Call to action for submitting photos -->
+        <section class="contribute-photos">
+            <h2>Have Photos to Share?</h2>
+            <p>If you have photos from team events or competitions that you'd like to see added here, please contact [Contact Person/Email Address] or share them via [Method - e.g., Google Drive link, specific chat group].</p>
+        </section>
+
+
+    </main>
+    <!-- ========================== -->
+    <!-- == End Gallery Content === -->
+    <!-- ========================== -->
+
+    <footer>
+        <div class="container">
+            <p>© <span id="current-year"></span> [Your School Name] Science Olympiad Team. All Rights Reserved.</p>
+            <p>Contact us: <a href="mailto:your-team-email@example.com">your-team-email@example.com</a></p>
+            <!-- Add social media links if you have them -->
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <!-- Optional: Add JS for a lightbox library if you implement one -->
+    <!-- <script src="path/to/lightbox.js"></script> -->
+    <!-- <script> -->
+        <!-- // Basic Lightbox Initialization (Example using Lightbox2 syntax) -->
+        <!-- // lightbox.option({ -->
+        <!-- //   'resizeDuration': 200, -->
+        <!-- //   'wrapAround': true -->
+        <!-- // }) -->
+    <!-- </script> -->
+</body>
+</html>
